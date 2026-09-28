@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Резюме - Петерсон Артём</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <img class="header__img" src="./images/avatar.jpg" alt="Иван Петров">
+      <div class="header__info">
+        <h1 class="h1">Петерсон Артём</h1>
+        <p class="header__subtitle">Frontend developer</p>
+      </div>
+      <div class="header__contacts">
+        <h2 class="h2">Контакты</h2>
+        <a href="tel:+79821891484" class="header__link">+79223344455</a>
+        <a href="mailto:artempeterson706@gmail.com" class="header__link">artempeterson706@gmail.com</a>
+      </div>
+    </header>
+    
+    <hr class="divider">
+    
+    <p class="about">
+      <b>Немного обо мне:</b> Я люблю ходить в тренажерный зал, хотя по мне это и не видно. Почти даже пожал 100 кг, в пике остановился пока только на 95 кг, приседал 100кг x 2. Также не бросаю заниматься и продолжаю заниматься. Также люблю играть в компютерные игры, из любимых - это дарк солус и дота.
+    </p>
+    
+    <div class="table">
+      <div class="table__hobbies">
+        <div class="table__hobbies-title">Хобби</div>
+        <div class="table__content">
+          <ul class="table__list">
+            <li class="table__list-item">Спортзал</li>
+            <li class="table__list-item">Путешествия</li>
+            <li class="table__list-item">Настольные игры</li>
+            <li class="table__list-item">Плавание</li>
+          </ul>
+        </div>
+      </div>
+      <div class="table__social">
+        <div class="table__social-title">Социальные сети</div>
+        <div class="table__content">
+          <ol class="table__list">
+            <li class="table__list-item"><a href="https://vk.ru/fl1ngs" target="_blank">VK</a></li>
+            <li class="table__list-item"><a href="https://telegram.org" target="_blank">Telegram</a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    
+    <div class="title">Интересующие технологии</div>
+    <div class="technologies">
+      <div class="technologies__item">
+        <img src="./images/js.png" alt="JavaScript" class="technologies__img">
+        <span>JavaScript</span>
+      </div>
+      <div class="technologies__item">
+        <img src="./images/python.png" alt="Python" class="technologies__img">
+        <span>Python</span>
+      </div>
+      <div class="technologies__item">
+        <img src="./images/cpp.png" alt="C++" class="technologies__img">
+        <span>C++</span>
+      </div>
+    </div>
+    
+    <div class="title">Форма обратной связи</div>
+    <form class="form">
+      <input class="form__input" type="text" placeholder="Ваше имя">
+      <input class="form__input" type="tel" placeholder="Телефон">
+      <textarea rows="6" class="form__textarea" placeholder="Ваш вопрос"></textarea>
+      <button type="submit" class="form__button">Отправить</button>
+    </form>
+  </div>
+</body>
+</html>
